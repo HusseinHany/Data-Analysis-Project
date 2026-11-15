@@ -1,4 +1,4 @@
-# Data-Analysis-Project-
+# Data-Analysis-Project
 Graduation Project: Data Cleaning
 
 This project focuses on cleaning and preparing two datasets as part of a graduation project. The cleaning steps are documented in the Graduation_Project_Cleaning(Finished).ipynb Jupyter Notebook.
