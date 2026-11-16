@@ -11,7 +11,7 @@ What's in this repository
 | --- | --- |
 | `Graduation_Project_Cleaning(Finished).ipynb` | The data cleaning notebook described below |
 | `Graduation Project.pbix` | The Power BI report (open with Power BI Desktop) |
-| `WEBSITE.html` | "Enterprise Data 360", a dashboard page with charts for banking, e-commerce, inventory, HR, marketing and customer analytics. Live at https://husseinhany.github.io/Data-Analysis-Project/ |
+| `WEBSITE.html` | "Enterprise Data 360", an interactive dashboard with seven sections (overview, banking, e-commerce, inventory, HR, marketing, customer 360): animated charts, light and dark themes, search across the tables, sortable columns, a table view for every chart, and CSV export. The figures are sample data. Live at https://husseinhany.github.io/Data-Analysis-Project/ |
 | `DOCUMENTATION.pdf` | The written project documentation |
 | `Github.txt`, `Website.txt` | Links to this repository and to the live dashboard |
 | `index.html` | Sends visitors of the live address to `WEBSITE.html` |
