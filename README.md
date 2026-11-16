@@ -1,5 +1,9 @@
 # Data-Analysis-Project
 
+<p align="center">
+  <a href="https://husseinhany.github.io/Data-Analysis-Project/"><img src="docs/banner.svg" width="100%" alt="Enterprise Data 360 dashboard with KPI tiles, a revenue trend line and bar charts."></a>
+</p>
+
 **Live dashboard: https://husseinhany.github.io/Data-Analysis-Project/**
 Graduation Project: Data Cleaning
 
