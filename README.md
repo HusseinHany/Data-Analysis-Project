@@ -5,6 +5,25 @@ Graduation Project: Data Cleaning
 
 This project focuses on cleaning and preparing two datasets as part of a graduation project. The cleaning steps are documented in the Graduation_Project_Cleaning(Finished).ipynb Jupyter Notebook.
 
+## From raw data to dashboard
+
+```mermaid
+flowchart LR
+    A[("banking_financial_data.csv<br/>41,002 rows · 17 columns")] --> C["Cleaning in pandas<br/>Jupyter notebook"]
+    B[("customer_demographics_data.csv<br/>25,000 rows · 18 columns")] --> C
+    C --> D["Clean data<br/>40,000 transactions<br/>25,000 customers"]
+    D --> E["Power BI report"]
+    D --> F["Enterprise Data 360<br/>web dashboard"]
+```
+
+## Cleaning results
+
+| Dataset | Rows in | Problem found | What was done | Rows out |
+| --- | --- | --- | --- | --- |
+| Banking transactions | 41,002 | 1,002 rows with no `Transaction_ID` | Dropped, since a transaction can't be traced without its ID | **40,000** |
+| Customer demographics | 25,000 | 49 missing `Annual_Income` values | Filled with the column average, $114,825.46 | **25,000** |
+| Both | | Duplicate rows | None found; `drop_duplicates()` run as a final check | |
+
 What's in this repository
 
 | File | What it is |
