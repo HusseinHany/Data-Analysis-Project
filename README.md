@@ -1,4 +1,6 @@
 # Data-Analysis-Project
+
+**Live dashboard: https://husseinhany.github.io/Data-Analysis-Project/**
 Graduation Project: Data Cleaning
 
 This project focuses on cleaning and preparing two datasets as part of a graduation project. The cleaning steps are documented in the Graduation_Project_Cleaning(Finished).ipynb Jupyter Notebook.
@@ -9,9 +11,10 @@ What's in this repository
 | --- | --- |
 | `Graduation_Project_Cleaning(Finished).ipynb` | The data cleaning notebook described below |
 | `Graduation Project.pbix` | The Power BI report (open with Power BI Desktop) |
-| `WEBSITE.html` | "Enterprise Data 360", a dashboard page with charts for banking, e-commerce, inventory, HR, marketing and customer analytics. Download it and open it in a browser. |
+| `WEBSITE.html` | "Enterprise Data 360", a dashboard page with charts for banking, e-commerce, inventory, HR, marketing and customer analytics. Live at https://husseinhany.github.io/Data-Analysis-Project/ |
 | `DOCUMENTATION.pdf` | The written project documentation |
-| `Github.txt`, `Website.txt` | Links submitted with the project. The hosted copy of the dashboard in `Website.txt` is no longer online; use `WEBSITE.html` instead. |
+| `Github.txt`, `Website.txt` | Links to this repository and to the live dashboard |
+| `index.html` | Sends visitors of the live address to `WEBSITE.html` |
 
 The two CSV datasets are not included in this repository, so the notebook cannot be re-run without them.
 
